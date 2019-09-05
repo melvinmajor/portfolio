@@ -1,0 +1,12 @@
+# Git ignore of portfolio
+# See this configuration repository at:
+# https://github.com/melvinmajor/portfolio
+# ========================================
+
+# Useless files
+*.DS_Store
+*.zip
+fontawesome*/
+
+# Files and folders of IDE
+.idea
