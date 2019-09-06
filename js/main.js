@@ -1,24 +1,15 @@
-(function($) {
+"use strict";
 
-	"use strict";	
+function toggleMenu(element) {
+    element.classList.toggle('active');
+}
 
-  
-    $('.navigation').singlePageNav({
-        currentClass : 'active'
+function init() {
+    const toggle = document.getElementsByClassName('toggle-menu')[0];
+    const menu = document.getElementsByClassName('responsive-menu')[0];
+    toggle.addEventListener('click', () => {
+        toggleMenu(menu);
     });
+}
 
-
-    $('.toggle-menu').click(function(){
-        $('.responsive-menu').stop(true,true).slideToggle();
-        return false;
-    });
-
-
-
-})(jQuery);
-
-
-
-
-
-
+document.addEventListener("DOMContentLoaded", init);
