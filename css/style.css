@@ -542,11 +542,9 @@ p.profile-description {
   bottom: 0;
   padding: 30px;
 }
-.project-hover h5 {
+.project-hover h5, .project-hover h5 a {
   font-size: 16px;
   margin-bottom: 15px;
-}
-.project-hover h5 a {
   color: white;
 }
 .project-hover p {
