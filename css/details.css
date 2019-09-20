@@ -6,6 +6,11 @@ h1 {
   font-size: 160%;
   margin: 20px;
 }
+h2 {
+  font-size: 140%;
+  margin: 15px;
+  color: darkblue;
+}
 p { margin-bottom: 10px; }
 ul, ol {
   padding-left: 40px;
@@ -89,6 +94,7 @@ aside, .info { text-align: center; }
   border-radius: 20px;
   padding: 10px 10px 0;
   display: flex;
+  margin-bottom: 10px;
 }
 
 .meetit {
@@ -96,13 +102,20 @@ aside, .info { text-align: center; }
   height: 400px;
 }
 .wops {
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
   width: auto;
 }
 #MS365Advantages {
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+#odoo {
+  max-width: 80%;
+  max-height: 100%;
   width: auto;
   display: block;
   margin: 0 auto;
