@@ -8,7 +8,7 @@ h1 {
 }
 h2 {
   font-size: 140%;
-  margin: 15px;
+  margin: 50px 15px 15px;
   color: darkblue;
 }
 h3 {
@@ -16,12 +16,15 @@ h3 {
   margin: 10px 0;
 }
 p { margin-bottom: 10px; }
+sup { font-size: 80%; }
 ul, ol {
   padding-left: 40px;
   margin-bottom: 10px;
 }
 ul { list-style-type: circle; }
 ol { list-style-type: decimal; }
+dl { margin: 10px; }
+dd { padding-left: 30px; }
 header {
   display: flex;
   flex-direction: row;
@@ -117,6 +120,7 @@ aside, .info { text-align: center; }
   column-gap: 1.5em;
   -webkit-column-gap: 1.5em;
   -moz-column-gap: 1.5em;
+  margin: 30px;
 }
 #MS365Advantages {
   max-width: 100%;
