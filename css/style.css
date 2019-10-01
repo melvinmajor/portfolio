@@ -501,6 +501,7 @@ p.profile-description {
 .project-item {
   width: 100%;
   margin-bottom: 2px;
+  padding-bottom: 2px;
   overflow: hidden;
   position: relative;
   border: #e0e0e0 1px solid;
