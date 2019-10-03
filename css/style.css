@@ -367,7 +367,7 @@ p.profile-description {
 }
 .main-navigation.responsive-menu {
   transition: height .5s;
-  height: 0px;
+  height: 0;
   opacity: 0;
   margin: 0;
 }
@@ -494,8 +494,6 @@ p.profile-description {
 .projects-holder .col-md-4,
 .projects-holder .col-md-4 {
   padding: 5px;
-  /* padding-right: 1px;
-  padding-left: 1px; */
 }
 
 .project-item {
@@ -552,6 +550,9 @@ p.profile-description {
   color: white;
   font-size: 13px;
   line-height: 20px;
+}
+.label label-default {
+  font-style: 10px;
 }
 
 /*------ contact ------ */

@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5 {
 .banner-bg {
 	float: right;
 	width: 77%;
-	@include media(max-width 1290px) {
+	@include media(max-width 992px) {
 		width: 70%;
 	}
 	@include media(max-width $tablet) {
@@ -58,7 +58,6 @@ h4.widget-title {
 	font-size: 16px;
 	font-family: 'robotobold';
 	text-transform: uppercase;
-	margin-bottom: 40px;
 }
 
 hr {
