@@ -136,3 +136,8 @@ aside, .info { text-align: center; }
   display: block;
   margin: 0 auto;
 }
+#che2 { position: relative; }
+#che2 img {
+  height: 315px;
+  width: auto;
+}
