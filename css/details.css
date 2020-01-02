@@ -141,3 +141,12 @@ aside, .info { text-align: center; }
   height: 315px;
   width: auto;
 }
+hr {
+  height: 3px;
+  border: none;
+  color: rgb(60,90,180);
+  background-color: rgb(60,90,180);
+  width: 60%;
+  text-align: center;
+  margin: .5em auto 1em;
+}
