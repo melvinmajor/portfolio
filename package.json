@@ -1,0 +1,13 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "SASS for Melvin Campos Casares portfolio website project",
+    "scripts": {
+        "sass": "sass --watch ./sass/main.scss:./css/style.css --style expanded",
+        "details": "sass --watch ./sass/details.scss:./css/details.css --style expanded",
+        "carousel": "sass --watch ./sass/carousel/carousel-2017-copacoB2B.scss:./css/carousel/carousel-2017-copacoB2B.css --style expanded"
+    },
+    "author": "Melvin Campos Casares",
+    "license": "ISC",
+    "browserlist": "last 4 versions"
+}
