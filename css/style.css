@@ -197,6 +197,15 @@ h1, h2, h3, h4, h5 {
   color: #555555;
 }
 
+ul, ol {
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+
+ul { list-style-type: circle; }
+
+ol { list-style-type: decimal; }
+
 ::-webkit-input-placeholder {
   color: #999999;
 }
@@ -263,6 +272,15 @@ hr {
 
 .page-section {
   padding-top: 80px;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #b0bec5;
+  color: white;
+}
+
+.table-hover a:hover {
+  color: white;
 }
 
 /*---------------------------------------------------------

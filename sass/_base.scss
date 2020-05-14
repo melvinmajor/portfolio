@@ -19,6 +19,15 @@ h1, h2, h3, h4, h5 {
 	color: $heading-color;
 }
 
+ul, ol {
+	padding-left: 40px;
+	margin-bottom: 10px;
+}
+
+ul { list-style-type: circle; }
+
+ol { list-style-type: decimal; }
+
 ::-webkit-input-placeholder {
    color: $light-color;
 }
@@ -75,4 +84,15 @@ hr {
 
 .page-section {
 	padding-top: 80px;
+}
+
+.table-hover {
+	& > tbody > tr:hover {
+		background-color: #b0bec5;
+		color: white;
+	}
+
+	& a:hover {
+		color: white;
+	}
 }
