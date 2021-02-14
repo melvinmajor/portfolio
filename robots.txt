@@ -1,0 +1,14 @@
+﻿User-agent: *
+
+Disallow: /doc/
+Disallow: /doc/*
+Disallow: doc/
+Disallow: doc/*
+Disallow: /img/
+Disallow: /img/*
+Disallow: img/
+Disallow: img/*
+Disallow: /other/
+Disallow: /other/*
+Disallow: other/
+Disallow: other/*
